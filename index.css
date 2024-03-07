@@ -1,0 +1,49 @@
+body{
+    margin: 5px;
+    padding: 10px;
+    max-width: 320px;
+    user-select: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+ul li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+input {
+    font-family: sans-serif;
+    padding: 10px 75px;
+    border: 1px solid burlywood;
+    border-radius: 20px;
+    text-align: center;
+}
+.btn button{
+    padding: 10px;
+    width: 30%;
+    margin-left: 0.5rem;
+    margin-top: 10px;
+    border: 1px solid green;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.btn button:hover{
+    background-color: green;
+    color: white;
+}
+
+
+#delete-btn{
+    padding: 10px 0px;
+    border: 1px solid red;
+}
+
+#delete-btn:hover{
+    background-color: red;
+    color: white;
+}
